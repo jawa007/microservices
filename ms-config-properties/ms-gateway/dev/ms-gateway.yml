@@ -4,7 +4,7 @@ zuul:
     ms-auth-server : /auth/**
 spring:
   kafka:
-    bootstrap-servers: localhost:9092
+    bootstrap-servers: localhost:2181
     topic:
       userCreated: USER_CREATED_TOPIC
 oauth:
